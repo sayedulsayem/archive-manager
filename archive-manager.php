@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Archive Manager
-Plugin URI: https://sayedulsayem.com/
+Plugin URI: https://github.com/sayedulsayem/archive-manager
 Description: Easily access your archive pages for taxonomies and users
 Version: 0.0.1
 Author: Sayedul Sayem
