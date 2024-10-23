@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ruleset name="ArchiveManager">
+
+    <file>./includes</file>
+    <file>./archive-manager.php</file>
+
+    <arg value="sp" />
+    <arg name="colors" />
+
+    <config name="testVersion" value="7.4-" />
+    <config name="text_domain" value="archive-manager" />
+
+    <rule ref="WordPress-Extra">
+        <exclude name="WordPress.Files.FileName.NotHyphenatedLowercase" />
+        <exclude name="WordPress.Files.FileName.InvalidClassFileName" />
+        <exclude name="Universal.Arrays.DisallowShortArraySyntax"/>
+    </rule>
+
+    <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
+
+</ruleset>

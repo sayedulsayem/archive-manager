@@ -1,0 +1,34 @@
+{
+  "name": "archive-manager",
+  "version": "0.0.1",
+  "description": "Easily access your archive pages for taxonomies and users",
+  "engines": {
+    "node": ">=19.4.0",
+    "npm": ">=9.8.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "composer build",
+    "wp-cli-pot": "wp i18n make-pot . i18n/archive-manager.pot",
+    "zip": "node ./zip.build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "#"
+  },
+  "keywords": [
+    "wordpress-plugin"
+  ],
+  "author": {
+    "name": "Sayedul Sayem",
+    "email": "sayedulsayem@gmail.com"
+  },
+  "license": "GPL-3.0-or-later",
+  "browserslist": [
+    "last 2 version",
+    "> .5%"
+  ],
+  "devDependencies": {
+    "archiver": "^7.0.1"
+  }
+}
