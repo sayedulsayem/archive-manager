@@ -30,6 +30,6 @@ Whether you're a developer looking to streamline your workflow or a content crea
 
 ## Changelog
 
-* 0.0.1
+* 0.0.2
 
   * Initial release

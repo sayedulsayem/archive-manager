@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) || exit;
  *
  *
  * @author sayedulsayem
- * @since 0.0.1
+ * @since 0.0.2
  */
 trait Singleton {
 
@@ -20,7 +20,7 @@ trait Singleton {
 	 * single instance create function
 	 *
 	 * @return object
-	 * @since 0.0.1
+	 * @since 0.0.2
 	 */
 	public static function instance() {
 		if ( ! self::$instance ) {

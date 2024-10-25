@@ -9,7 +9,7 @@ defined( 'ABSPATH' ) || exit;
  * All ajax handler class
  *
  * @author sayedulsayem
- * @since 0.0.1
+ * @since 0.0.2
  */
 class ViewLink {
 	use \SayedulSayem\ArchiveManager\Traits\Singleton;

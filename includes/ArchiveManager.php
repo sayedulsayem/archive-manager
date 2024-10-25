@@ -9,7 +9,7 @@ defined( 'ABSPATH' ) || exit;
  * Archive Manager plugin bootstrap class
  *
  * @author sayedulsayem
- * @since 0.0.1
+ * @since 0.0.2
  */
 class ArchiveManager {
 	use \SayedulSayem\ArchiveManager\Traits\Singleton;
@@ -21,8 +21,8 @@ class ArchiveManager {
 	}
 
 	public function define_constants() {
-		define( 'ARCHIVE_MANAGER_VERSION', defined( 'ARCHIVE_MANAGER_DEV' ) ? time() : '0.0.1' );
-		define( 'ARCHIVE_MANAGER_PATH', \plugin_dir_path( __DIR__ ) );
+		define( 'SS_ARCHIVE_MANAGER_VERSION', defined( 'SS_ARCHIVE_MANAGER_DEV' ) ? time() : '0.0.2' );
+		define( 'SS_ARCHIVE_MANAGER_PATH', \plugin_dir_path( __DIR__ ) );
 	}
 
 	public function init_plugin() {
@@ -39,6 +39,6 @@ class ArchiveManager {
 	}
 
 	public function localization_setup() {
-		load_plugin_textdomain( 'archive-manager', false, ARCHIVE_MANAGER_PATH . 'i18n/' );
+		load_plugin_textdomain( 'archive-manager', false, SS_ARCHIVE_MANAGER_PATH . 'i18n/' );
 	}
 }

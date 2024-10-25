@@ -1,6 +1,6 @@
 {
   "name": "archive-manager",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Easily access your archive pages for taxonomies and users",
   "engines": {
     "node": ">=19.4.0",
