@@ -40,6 +40,9 @@ Yes, It will work on all the custom taxonomies available on WordPress.
 **Step 3:** When you activate Archive Manager you will see a new action row called "View Archive" on the terms of any taxonomies.
 
 == Screenshots ==
+1. View Archive link in Posts Category
+2. View Archive link in Custom Post Type Category (Products)
+3. View Archive link in Users List
 
 == Changelog ==
 

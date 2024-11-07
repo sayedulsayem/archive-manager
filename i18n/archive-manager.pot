@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-10-23T12:23:48+00:00\n"
+"POT-Creation-Date: 2024-11-07T11:58:45+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: archive-manager\n"
@@ -20,9 +20,8 @@ msgid "Archive Manager"
 msgstr ""
 
 #. Plugin URI of the plugin
-#. Author URI of the plugin
 #: archive-manager.php
-msgid "https://sayedulsayem.com/"
+msgid "https://github.com/sayedulsayem/archive-manager"
 msgstr ""
 
 #. Description of the plugin
@@ -33,6 +32,11 @@ msgstr ""
 #. Author of the plugin
 #: archive-manager.php
 msgid "Sayedul Sayem"
+msgstr ""
+
+#. Author URI of the plugin
+#: archive-manager.php
+msgid "https://sayedulsayem.com/"
 msgstr ""
 
 #: includes/App/ViewLink.php:36
