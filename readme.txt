@@ -1,14 +1,14 @@
 === Archive Manager ===
 Plugin Name: Archive Manager
-Version: 0.0.2
+Version: 0.0.3
 Author: sayedulsayem
 Author URI: https://sayedulsayem.com/
 Contributors: sayedulsayem
 Tags: archive, manager, link
 Requires at least: 5.0
-Tested up to: 6.6
+Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 0.0.2
+Stable tag: 0.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,6 +46,8 @@ Yes, It will work on all the custom taxonomies available on WordPress.
 
 == Changelog ==
 
-= 0.0.2 =
+= 0.0.3 =
+* Fix: compatibility with WordPress 6.8.x
 
+= 0.0.2 =
 - Initial release

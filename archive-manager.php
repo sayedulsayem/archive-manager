@@ -3,7 +3,7 @@
 Plugin Name: Archive Manager
 Plugin URI: https://github.com/sayedulsayem/archive-manager
 Description: Easily access your archive pages for taxonomies and users
-Version: 0.0.2
+Version: 0.0.3
 Author: Sayedul Sayem
 Author URI: https://sayedulsayem.com/
 License: GPL-2.0-or-later
