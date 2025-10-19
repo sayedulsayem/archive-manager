@@ -21,7 +21,7 @@ class ArchiveManager {
 	}
 
 	public function define_constants() {
-		define( 'SS_ARCHIVE_MANAGER_VERSION', defined( 'SS_ARCHIVE_MANAGER_DEV' ) ? time() : '0.0.2' );
+		define( 'SS_ARCHIVE_MANAGER_VERSION', defined( 'SS_ARCHIVE_MANAGER_DEV' ) ? time() : '0.0.3' );
 		define( 'SS_ARCHIVE_MANAGER_PATH', \plugin_dir_path( __DIR__ ) );
 	}
 
